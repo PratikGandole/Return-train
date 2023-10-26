@@ -1,0 +1,316 @@
+
+
+
+@media (min-width: 426px) {
+  body {
+ display: none!important;
+  }
+
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: 95%;
+    padding: 50px;
+    margin-top: 10px;
+}
+h2{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive !important;
+  font-size: 100%;
+  position: absolute;
+  margin-left: 23%;
+  margin-top: -10%;
+}
+.i{
+  font-size: 350%;
+}
+
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.popupinfo{
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 27px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 81%;
+  text-align: center;
+  border-radius: 20px;
+  width: 80%;
+}
+.font::placeholder{
+font-family:'Press Start 2P', cursive !important 
+}
+
+.popup-content {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  padding: 32px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 81%;
+  text-align: center;
+  border-radius: 20px;
+  width: 66%;
+}
+
+.close-button {
+  color: #000;
+  float: right;
+  font-size: 40px;
+  cursor: pointer;
+  margin: -3%;
+  margin-top: -8%;
+}
+
+.close-button:hover {
+  color: #f00;
+}
+
+
+
+#fromstation{
+    margin: -5% 15%;
+    width: 60%;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: 70%;
+    border-width: 80%;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+#tostation{
+    margin: 15% 15% 10%;
+    width: 60%;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: 70%;
+    text-align: center;
+
+}
+
+#popup2{
+  background-color: white;
+  border: none;
+  color: black;
+  border-radius: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+
+}
+.popup-content {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  padding: 32px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 81%;
+  text-align: center;
+  border-radius: 20px;
+  width: 66%;
+}
+
+
+.form-control {
+  display: block;
+  width: 80%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin: 4% 5%;
+}
+
+.Suggestion {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive !important;
+  font-size: 100%;
+  position: absolute;
+  margin-left: 19%;
+  margin-top: -58%;
+  color: grey;
+}
+
+.close-button {
+  color: #000;
+  float: right;
+  font-size: 40px;
+  cursor: pointer;
+  margin: -6%;
+  margin-top: -12%;
+}
+
+.close-button2 {
+  color: #000;
+  float: right;
+  font-size: 40px;
+  cursor: pointer;
+  margin: -5%;
+  margin-top: -10%;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border-radius: 25%;
+  display: inline-block;
+  margin-left: 7%;
+  border-style: solid;
+  margin-top: -9.5%;
+  position: absolute;
+}
+  .dot1 {
+    height: 12px;
+    width: 12px;
+    background-color: #000;
+    border-radius: 25%;
+    display: inline-block;
+    border-style: solid;
+    margin-left: 30.6px;
+    margin-top: -8.5%;
+    margin-bottom: 1.4%;
+    position: absolute;
+  }
+
+.vl {
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -143px;
+  top: 383px;
+  border-style: dotted;
+}
+  
+  
+
+.dot2 {
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border-radius: 25%;
+  display: inline-block;
+  margin-left: -330px;
+  border-style: solid;
+  margin-top: 16.5%;
+  position: absolute;
+
+}
+  .dot3 {
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    border-radius: 25%;
+    display: inline-block;
+    border-style: solid;
+    margin-left: -326px;
+    margin-top: 17.7%;
+    margin-bottom: 1.4%;
+    position: absolute;
+}
+
+.dot4 {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    border-radius: 25%;
+    display: inline-block;
+    margin-left: -54%;
+    border-style: solid;
+    margin-top: 1.5%;
+    position: absolute;
+}
+  
+      
+
+
+
+.button-1 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive !important;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-left: 24%;
+  width: 50%;
+  color:#ffffff;
+}
+
+.button-1:focus {
+  text-decoration: none;
+}
+
+.button-1:hover {
+  text-decoration: none;
+}
+
+.button-1:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-1:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-1 {
+    padding: 12px 50px;
+  }
+}

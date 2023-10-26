@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Train Timining</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <div class="popup-container" id="popup">
+        <div class="popupinfo">
+            <span class="close-button2" onclick="closePopup()">&times;</span>
+            <ul style="font-family:'Press Start 2P', cursive !important ; font-size: 80%;text-align:left;">
+                <li>This is a web page to know local return time and the train information.</li>
+                <br>
+                <li>Please note that this website does not provide realtime data of trains in India.</li>
+                <br>
+                <li>The data provided here are based on historical records.</li>
+                <br>
+                <li>All the information is taken from railway time table.</li>
+                <br>
+                <li>For any queries please contact: XXXX@gmail.com</li>
+                <br>
+                <li>@ Project Created by CSism Tecnology
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                <li><b> मजदूर</b> : Pratik Gandole</li>
+                <li><b> मजदूर</b> : Ankur Mishra</li>
+                <li><b> दलाल</b> : Amit Patil</li>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <i class="fa fa-envelope" id="info-message" onclick="openPopup2()" aria-hidden="true"
+        style="margin-left: 87%;position: absolute;margin-top: 13%;font-size: 165%;"></i>
+    <i class="fa fa-info-circle fa-2x" id="info-icon" onclick="openPopup()" style="
+    margin-left: 90%;"></i>
+    <script src="script.js"></script>
+
+    <img src="assest/Local train logo.png" style="
+    width: 50%;
+    margin-left: 25%;
+">
+    <h2>
+        Mumbai Local
+    </h2>
+    <h1>
+        -Return Train-
+    </h1>
+
+
+    <form action="index2.html">
+        <div>
+            <input type="text" id="fromstation" name="" placeholder="From Station" required>
+            <span class="dot"></span>
+            <span class="dot1"></span>
+            <div class="vl"></div>
+            <input type="text" id="tostation" name="" placeholder="To Station" required>
+            <span class="dot2"></span>
+            <span class="dot3"></span>
+
+            <span class="dot5"></span>
+        </div>
+        <div>
+            <button class="button-1" role="button">Find Trains</button>
+        </div>
+    </form>
+
+    <div class="popup-container" id="popup2" style="display: none;">
+        <div class="popup-content">
+            <span class="close-button" onclick="closePopup2()">&times;</span>
+            <form action="">
+                <div class="form-group">
+
+                    <input type="text" class="form-control font"  placeholder="Name*" id="name" required="" style="font-family:'Press Start 2P', cursive !important ;">
+                </div>
+                <div class="form-group">
+
+                    <input type="email" class="form-control font" placeholder="Email*" id="email" required="" style="font-family:'Press Start 2P', cursive !important ;">
+                </div>
+                <div class="form-group">
+
+                    <!-- <input type="tel" class="form-control font" placeholder="Mobile No" id="mobile" style="font-family:'Press Start 2P', cursive !important ;"> -->
+                </div>
+                <div class="form-group">
+                    <h2 class="Suggestion">Suggestion</h2>
+
+                    <textarea class="form-control font" placeholder="Message*" id="message" rows="4" required="" style="width: 230px; height: 176px;"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="
+                 border-radius: 10px;
+                 background-color: white;
+                 color: #5f5f5f;
+                 font-size: 115%;
+                 border-color: #d4d4d4;
+                 font-family: 'Press Start 2P';
+                 padding: 3%;
+                 ">Submit</button>
+                </form>
+        </div>
+    </div>
+
+    <script>
+        function openPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+
+        function openPopup2() {
+            document.getElementById("popup2").style.display = "block";
+        }
+
+        function closePopup2() {
+            document.getElementById("popup2").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

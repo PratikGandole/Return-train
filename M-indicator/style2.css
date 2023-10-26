@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  body {
+    background:black;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'Ravi Prakash', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Cabin', sans-serif;
+  }
+
+  .trainboxbegening{
+    height: 60px;
+    width: 60px;
+    background-color: #ffffff;
+    border-radius: 25%;
+    display: inline-block;
+    margin-left: -25px;
+    border-style: solid;
+    margin-top: -63.5%;
+    position: absolute;
+    border: solid;
+    border-color: black;
+
+  }
+  
+  .trainboxbegening2{
+    height: 60px;
+    width: 60px;
+    background-color: #ffffff;
+    border-radius: 25%;
+    display: inline-block;
+    margin-left: -25px;
+    border-style: solid;
+    margin-top: 88%;
+    position: absolute;
+    border: solid;
+    border-color: black;
+
+  }
+  
+  .Destination{
+    height: 60px;
+    width: 60px;
+    background-color: #ffffff;
+    border-radius: 25%;
+    display: inline-block;
+    margin-left: -25px;
+    border-style: solid;
+    margin-top: 253%;
+    position: absolute;
+    border: solid;
+    border-color: black;
+
+  }
+
+  /* Add a black background color to the top navigation bar */
+.topnav {
+  /* overflow: hidden; */
+  background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+ 
+}
+  div.container {
+    max-width: 1350px;
+    margin: 0 auto;
+    overflow: hidden
+  }
+  .upcomming {
+    font-size: 32px;
+    text-transform: uppercase;
+    border-left: 14px solid white;
+    padding-left: 12px;
+    margin: 18px 8px;
+    color: white;
+    font-family: 'Press Start 2P', cursive !important;
+    margin-left: 3%;
+    text-align: center;
+  }
+  .container .item {
+    width: 48%;
+    float: left;
+    padding: 0 20px;
+    background: #fff;
+    overflow: hidden;
+    margin: 10px
+  }
+  .container .item-right, .container .item-left {
+    float: left;
+    padding: 20px 
+  }
+  .container .item-right {
+    padding: 79px 30px;
+    margin-right: 20px;
+    width: 25%;
+    position: relative;
+    height: 286px
+  }
+  .container .item-right .up-border, .container .item-right .down-border {
+      padding: 14px 15px;
+      background-color: #000000;
+      border-radius: 50%;
+      position: absolute
+  }
+  .container .item-right .up-border {
+    top: -8px;
+    right: -35px;
+  }
+  .container .item-right .down-border {
+    bottom: -73px;
+    right: -35px;
+  }
+  .container .item-right .num {
+    font-size: 60px;
+    text-align: center;
+    color: #111
+  }
+  .container .item-right .day, .container .item-left .event {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 7%;
+    margin-bottom: 9px;
+    margin-left: -14%;
+    font-family: 'Press Start 2P', cursive !important;
+  }
+  .container .item-right .day, .container .item-left .event1{
+    color: #000000;
+    font-size: 14px;
+    margin-top: 7%;
+    margin-bottom: 9px;
+    margin-left: -14%;
+    font-family: 'Press Start 2P', cursive !important;
+    margin-top: 54%;
+  }
+
+  .container .item-right .day, .container .item-left .event2 {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 7%;
+    margin-bottom: 9px;
+    margin-left: -14%;
+    font-family: 'Press Start 2P', cursive !important;
+    margin-top: 60%
+  }
+
+  .NSP {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 7%;
+    margin-bottom: 9px;
+    margin-left: 13%;
+    font-family: 'Press Start 2P', cursive !important;
+    margin-top: 40%;
+}
+  
+
+ .VIRAR {
+  color: #000000;
+  font-size: 14px;
+  margin-top: 7%;
+  margin-bottom: 9px;
+  margin-left: 23%;
+  font-family: 'Press Start 2P', cursive !important;
+  margin-top: 41%;
+}
+  
+
+  .DADAR {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 7%;
+    margin-bottom: 9px;
+    margin-left: 24%;
+    font-family: 'Press Start 2P', cursive !important;
+    margin-top: 40%;
+  }
+  
+  .container .item-right .day {
+    text-align: center;
+    font-size: 25px;
+  }
+  .container .item-left {
+    width: 60%;
+    padding: 34px 0px 370px 46px;
+    border-left: 3px dotted #999;
+  } 
+  .container .item-left .title {
+    color: #111;
+    font-size: 34px;
+    margin-bottom: 12px
+  }
+  .container .item-left .sce {
+    margin-top: 5px;
+    display: block
+  }
+  .container .item-left .sce .icon, .container .item-left .sce p,
+  .container .item-left .loc .icon, .container .item-left .loc p{
+      float: left;
+      word-spacing: 5px;
+      letter-spacing: 1px;
+      color: #888;
+      margin-bottom: 10px;
+  }
+  .container .item-left .sce .icon, .container .item-left .loc .icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #666
+  }
+  .container .item-left .loc {display: block}
+  .fix {clear: both}
+  .container .item .tickets, .booked, .cancel{
+      color: #fff;
+      padding: 6px 14px;
+      float: right;
+      margin-top: 10px;
+      font-size: 18px;
+      border: none;
+      cursor: pointer
+  }
+  .container .item .tickets {background: #777}
+  .container .item .booked {background: #3D71E9}
+  .container .item .cancel {background: #DF5454}
+  .linethrough {text-decoration: line-through}
+  @media only screen and (max-width: 1150px) {
+    .container .item {
+      width: 100%;
+      margin-right: 20px
+    }
+    div.container {
+      margin: 0 20px auto
+    }
+  }
+
+  @media only screen and (max-width: 726px){
+  .container .item {
+    width: 100%;
+    margin-right: 20px;
+    height: 350px;
+}
+  }
